@@ -1,0 +1,46 @@
+*, *::before, *::after { 
+    box-sizing: border-box;
+  }
+  h1{
+   margin: 1em;
+   text-align: center;
+  }
+  P{
+    color: white;
+    text-align: center;
+    background-color: black;
+  }
+
+  html, body { 
+    height: 100%;
+    margin: 0;
+    background-color: darkgray;
+    font-family: sans-serif;
+  }
+  
+ label{
+   text-align: center;
+    display: block;
+    margin: 1em;
+    padding: 1em;
+ }
+
+ form{
+    border: 10px solid black;
+    margin : 1em;
+    padding: 1em;
+
+ }
+
+ button{
+   margin: auto;
+   display: block;
+   padding: 1em;
+   background-color: darkgray;
+   border-radius: 50%;
+   border: 2px solid black;
+   color: black;
+ }
+ button:hover{
+ background-color: white;
+ }
