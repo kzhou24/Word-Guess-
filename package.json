@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "normal": "^0.1.1"
+  },
+  "scripts": {
+    "guess": "npx nodemon server.js"
+  }
+}
